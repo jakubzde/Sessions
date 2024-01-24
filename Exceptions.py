@@ -10,5 +10,5 @@ except:
     print("I am sorry, but something went wrong")
 else:
     print(f"Player 1 is older than player 2 by a factor of {res}")
-finally:
+finally: 
     print("Thank you for playing")
