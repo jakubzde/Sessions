@@ -1,2 +1,2 @@
-print("hello world")
-print("hello world 1")
+print(2**10)
+abs(-5)
