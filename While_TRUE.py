@@ -1,7 +1,7 @@
 import random
 lives = 3
 
-while True:
+while lives > 0:
     print(f"You have {lives} lives left")
     dice_roll = random.randint(1,6)
     if dice_roll == 0:
@@ -13,3 +13,5 @@ while True:
 
     print(f"You rolled a {dice_roll}, try again.")
     lives -= 1
+else:
+    print("You lost all your lives, game over.")
